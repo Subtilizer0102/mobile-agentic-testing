@@ -1,0 +1,21 @@
+appId: com.google.android.contacts
+---
+- launchApp:
+    clearState: true
+- tapOn: "Create contact"
+- tapOn: "First name"
+- inputText: "value"
+
+- tapOn: "Last name"
+- inputText: "value2"
+
+- tapOn: "+1"
+- inputText: "1234567890"
+
+- tapOn: "Cancel"
+
+- tapOn: "Discard"
+
+- back
+
+- back
