@@ -1,0 +1,12 @@
+appId: com.apple.MobileAddressBook
+---
+- launchApp
+- tapOn: "All iPhone"
+- tapOn: "Add"
+- tapOn: "First name"
+- inputText: "Test_first_name"
+- tapOn: "Last name"
+- inputText: "Test_last_name"
+- tapOn: "Cancel"
+- tapOn: "Discard Changes"
+- pressKey: home
