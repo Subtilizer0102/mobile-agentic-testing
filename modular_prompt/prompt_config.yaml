@@ -8,3 +8,12 @@ maestro_yaml_generator:
   - maestro_flow_control
   - maestro_output_rules
   - maestro_examples
+
+maestro_yaml_generator_basic:
+  - maestro_role
+  - maestro_syntax
+  - maestro_selectors
+  - maestro_interaction_commands
+  - maestro_assertion_commands
+  - maestro_output_rules
+  - maestro_examples
