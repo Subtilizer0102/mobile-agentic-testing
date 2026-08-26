@@ -1,0 +1,21 @@
+appId: com.apple.mobilecal
+---
+- launchApp
+- tapOn: "Add"
+- tapOn: "Title"
+- inputText: "test_title"
+- tapOn: "26-Aug-2026"
+- tapOn: "27"
+- tapOn: "10:00 PM"
+- scrollUntilVisible:
+    element:
+      text: "20 minutes"
+    direction: DOWN
+    speed: 100
+    timeout: 60000
+    visibilityPercentage: 20
+- tapOn: "Never"
+- tapOn: "Every Day"
+- tapOn: "Cancel"
+- tapOn: "Discard Changes"
+- pressKey: home
