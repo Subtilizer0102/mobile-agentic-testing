@@ -1,19 +1,10 @@
-default:
-  - persona
-  - instructions
-  - constraints
-  - output_format
-
-with_tools:
-  - persona
-  - instructions
-  - constraints
-  - tools
-  - output_format
-
-with_examples:
-  - persona
-  - instructions
-  - constraints
-  - output_format
-  - examples
+maestro_yaml_generator:
+  - maestro_role
+  - maestro_syntax
+  - maestro_selectors
+  - maestro_interaction_commands
+  - maestro_assertion_commands
+  - maestro_device_commands
+  - maestro_flow_control
+  - maestro_output_rules
+  - maestro_examples
