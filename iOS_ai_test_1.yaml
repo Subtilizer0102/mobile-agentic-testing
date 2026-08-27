@@ -1,5 +1,5 @@
 appId: com.apple.MobileAddressBook
-    ---
+---
     - launchApp
     - tapOn: "All iPhone"
     - tapOn: "Add"

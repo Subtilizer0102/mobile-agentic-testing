@@ -9,6 +9,10 @@ def extract_yaml(response_text: str) -> str:
     if fence_match:
         text = fence_match.group(1)
 
+    lines = text.splitlines()
+    lines = [line.strip() if line.strip() == "---" else line for line in lines]
+    text = "\n".join(lines)
+
     return text.strip()
 
 
