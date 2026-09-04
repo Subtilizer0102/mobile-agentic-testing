@@ -1,4 +1,4 @@
-# mobile_agentic_testing
+# Mobile Agentic Testing Software
 1. Downloaded Maestro, Android Studio, and Xcode. 
 2. Downloaded Android 17 and iOS 16. 
 3. Used iPhone 14 for iOS and Pixel 8 for Android. 
